@@ -1,0 +1,49 @@
+{
+  "name": "redux-selector-hooks",
+  "version": "0.0.1",
+  "description": "Collection of usefull hooks for projects on React/Redux stack",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarthVictor/redux-selector-hooks.git"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "hooks"
+  ],
+  "author": "DarthVictor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DarthVictor/redux-selector-hooks/issues"
+  },
+  "homepage": "https://github.com/DarthVictor/redux-selector-hooks#readme",
+  "devDependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/react-hooks": "^7.0.1",
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "react": "^16.8.3 || ^17",
+    "react-redux": "^7.1.0",
+    "rollup": "^2.53.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8.3 || ^17",
+    "react-redux": "^7.1.0"
+  },
+  "peerDependenciesMeta": {
+    "react-dom": {
+      "optional": true
+    },
+    "react-native": {
+      "optional": true
+    }
+  }
+}

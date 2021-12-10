@@ -1,0 +1,1 @@
+export declare const useCreateSelector: <DependencyList extends readonly any[], RootState = {}, Selected = unknown>(creatorSelector: (...dependencies: DependencyList) => (state: RootState) => Selected, dependencies: DependencyList, isEqualFn?: ((left: Selected, right: Selected) => boolean) | undefined) => Selected;
