@@ -14,7 +14,7 @@ export const useCreateSelector = <
 ): Selected => {
   const selector = useMemo(
     () => creatorSelector(...dependencies),
-    [dependencies, creatorSelector]
+    [...dependencies, creatorSelector]
   );
 
   return useSelector(selector, isEqualFn);
